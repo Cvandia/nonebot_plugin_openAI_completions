@@ -44,7 +44,7 @@ python：3.8.13
 环境依赖`aiohttp`库   
 且需要注册openAI账号，获取secret key，配置env后才能正常使用！  
 
-### 1. nb-cli安装（推荐）
+### 1. nb-cli安装（暂不可用，不打算发到nb官方了，感觉不好玩）
 在你bot工程的文件夹下，运行cmd（运行路径要对啊），执行nb命令安装插件，插件配置会自动添加至配置文件  
 ```
 nb plugin install nonebot_plugin_openAI_completions
