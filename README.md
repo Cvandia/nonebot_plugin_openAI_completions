@@ -69,13 +69,13 @@ git clone https://github.com/Ikaros-521/nonebot_plugin_openAI_completions.git
 pip install nonebot_plugin_openAI_completions
 ```  
 打开 nonebot2 项目的 ```bot.py``` 文件, 在其中写入  
-```nonebot.load_plugin('nonebot_plugin_openAI_completions')```  
+```nonebot.load_plugin('nonebot_plugin_openai_completions')```  
 当然，如果是默认nb-cli创建的nonebot2的话，在bot路径```pyproject.toml```的```[tool.nonebot]```的```plugins```中添加```nonebot_plugin_openAI_completions```即可  
 pyproject.toml配置例如：  
 ``` 
 [tool.nonebot]
 plugin_dirs = ["src/plugins"]
-plugins = ["nonebot_plugin_openAI_completions"]
+plugins = ["nonebot_plugin_openai_completions"]
 ``` 
 
 ### 更新版本
